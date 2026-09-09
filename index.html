@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nadee Senanayake | Digital Card</title>
+    <meta
+      name="description"
+      content="Digital card landing page for Nadee Senanayake with services, business hours, and WhatsApp contact."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            boxShadow: {
+              soft: '0 20px 60px -20px rgba(15, 23, 42, 0.35)',
+            },
+            colors: {
+              brand: {
+                50: '#fdf2f8',
+                100: '#fce7f3',
+                500: '#ec4899',
+                600: '#db2777',
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <script
+      src="https://kit.fontawesome.com/9f6fe685d7.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background:
+          radial-gradient(circle at top left, rgba(107, 29, 47, 0.24), transparent 24%),
+          radial-gradient(circle at bottom right, rgba(107, 29, 47, 0.14), transparent 28%),
+          #12161a;
+        color: #f3f4f6;
+      }
+      .glass {
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+      }
+      .avatar-ring {
+        box-shadow: 0 0 0 6px rgba(107, 29, 47, 0.22);
+      }
+    </style>
+  </head>
+  <body class="min-h-screen antialiased">
+    <div class="mx-auto max-w-5xl px-4 py-6 sm:px-6 lg:px-8">
+      <main class="relative overflow-hidden rounded-[28px] border border-white/10 bg-[#181C20]/90 shadow-[0_30px_80px_rgba(0,0,0,0.55)]">
+        <div class="pointer-events-none absolute inset-0 overflow-hidden">
+          <div class="absolute -left-12 top-20 h-56 w-56 rounded-full bg-[#6B1D2F]/25 blur-3xl"></div>
+          <div class="absolute right-0 top-10 h-72 w-72 rounded-full bg-[#6B1D2F]/20 blur-3xl"></div>
+          <div class="absolute -bottom-16 left-1/3 h-64 w-64 rounded-full bg-[#6B1D2F]/15 blur-3xl"></div>
+        </div>
+        <section class="relative">
+          <div class="h-48 w-full bg-cover bg-center sm:h-60 lg:h-72" style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80');"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-900/35 via-slate-900/5 to-transparent"></div>
+        </section>
+
+        <section class="relative px-5 pb-7 pt-0 sm:px-8 lg:px-10">
+          <div class="-mt-12 flex items-end justify-between gap-4 sm:-mt-16">
+            <div class="avatar-ring relative h-28 w-28 overflow-hidden rounded-full border-4 border-white/15 bg-white/10 backdrop-blur-xl sm:h-36 sm:w-36">
+              <img
+                src="images/profile.jpeg"
+                alt="Nadee Senanayake profile"
+                class="w-28 h-28 sm:w-36 sm:h-36 rounded-full object-cover object-center"
+                style="filter: saturate(1.05) contrast(1.08);"
+              />
+            </div>
+            <div class="flex items-center gap-3 pb-4">
+              <a
+                href="tel:+94771234567"
+                class="inline-flex items-center justify-center rounded-full bg-[#6B1D2F] px-4 py-2.5 text-sm font-medium text-white transition hover:bg-[#5a1826]"
+                aria-label="Call Nadee Senanayake"
+              >
+                <i class="fa-solid fa-phone mr-2"></i> Call
+              </a>
+              <a
+                href="https://wa.me/94707803698?text=Hello%20Nadee,%20I%20need%20help%20with%20my%20business"
+                target="_blank"
+                rel="noreferrer"
+                class="inline-flex items-center justify-center rounded-full bg-[#6B1D2F] px-4 py-2.5 text-sm font-medium text-white transition hover:bg-[#5a1826]"
+                aria-label="Chat on WhatsApp"
+              >
+                <i class="fa-brands fa-whatsapp mr-2"></i> WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <div class="mt-5 space-y-5">
+            <div>
+              <h1 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Nadee Senanayake</h1>
+              <p class="mt-2 text-base font-medium text-[#E2738A] sm:text-lg">Business Consultant & Branding Specialist</p>
+            </div>
+
+            <p class="max-w-2xl text-sm leading-7 text-gray-300 sm:text-base">
+              I help entrepreneurs and growing businesses simplify strategy, strengthen their brand presence,
+              and turn everyday challenges into clear opportunities for growth.
+            </p>
+
+            <div class="flex flex-wrap items-center gap-3 pt-1">
+              <a
+                href="https://wa.me/94707803698?text=Hello%20Nadee,%20I%20need%20help%20with%20my%20business"
+                target="_blank"
+                rel="noreferrer"
+                class="inline-flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-[#25D366]/20 transition hover:scale-105"
+                aria-label="WhatsApp"
+                title="WhatsApp"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 fill-white">
+                  <path d="M19.05 4.95A9.85 9.85 0 0 0 12.02 2a9.9 9.9 0 0 0-8.47 15.03L2 22l5.09-1.35A9.9 9.9 0 0 0 12.02 22a9.88 9.88 0 0 0 7.03-3.05 9.86 9.86 0 0 0 0-14.0ZM12.02 19.8c-1.47 0-2.9-.4-4.16-1.16l-.3-.18-3.02.8.8-2.95-.2-.3A7.94 7.94 0 0 1 4.1 12a8.05 8.05 0 1 1 14.03 5.7 7.9 7.9 0 0 1-6.11 2.1Zm4.35-5.96c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.43-1.34-1.67-.14-.24-.02-.37.1-.49.1-.1.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.4h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.68 2.56 4.08 3.58.57.25 1.02.4 1.37.51.57.18 1.09.15 1.5.09.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28Z"/>
+                </svg>
+              </a>
+              <a
+                href="https://instagram.com/nadeesenanayake.branding"
+                target="_blank"
+                rel="noreferrer"
+                class="inline-flex h-12 w-12 items-center justify-center rounded-full bg-[linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888)] text-white shadow-lg shadow-pink-500/20 transition hover:scale-105"
+                aria-label="Instagram"
+                title="Instagram"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 fill-white">
+                  <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.5A5.5 5.5 0 1 1 6.5 13 5.5 5.5 0 0 1 12 7.5Zm0 2A3.5 3.5 0 1 0 15.5 13 3.5 3.5 0 0 0 12 9.5Zm5.25-3.25a1.25 1.25 0 1 1-1.25 1.25 1.25 1.25 0 0 1 1.25-1.25Z"/>
+                </svg>
+              </a>
+              <a
+                href="tel:0707803698"
+                class="inline-flex h-12 w-12 items-center justify-center rounded-full bg-[#007AFF] text-white shadow-lg shadow-[#007AFF]/20 transition hover:scale-105"
+                aria-label="Call"
+                title="Call"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 fill-white">
+                  <path d="M6.62 10.79a15.87 15.87 0 0 0 6.59 6.59l2.2-2.2a1.42 1.42 0 0 1 1.45-.35 16.24 16.24 0 0 0 4.3.69A1.5 1.5 0 0 1 22 17.5V20a1.5 1.5 0 0 1-1.5 1.5A19.5 19.5 0 0 1 1 4.5 1.5 1.5 0 0 1 2.5 3h2.5A1.5 1.5 0 0 1 6.5 4.5a16.24 16.24 0 0 0 .69 4.3 1.42 1.42 0 0 1-.35 1.45l-2.22 2.24Z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="relative grid gap-6 border-t border-white/10 bg-white/5 px-5 py-6 backdrop-blur-md sm:px-8 lg:grid-cols-[1.15fr_0.85fr] lg:px-10">
+          <div>
+            <div class="mb-4">
+              <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#E2738A]">Services</p>
+              <h2 class="mt-2 text-2xl font-bold text-white">What I can help with</h2>
+            </div>
+
+            <div class="grid gap-4 sm:grid-cols-2">
+              <article class="rounded-2xl border border-white/15 bg-white/10 p-4 shadow-2xl shadow-[#6B1D2F]/5 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:bg-white/15">
+                <div class="mb-3 flex h-11 w-11 items-center justify-center rounded-xl border border-[#6B1D2F]/50 bg-[#6B1D2F]/30 text-white backdrop-blur-md">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 fill-current">
+                    <path d="M5 4h3v2H8v2H6v2H4V8h2V6H4V4h1Zm6 0h4v3h-2v2h2v2h-2v3h-2v-3H9v-2h2V7h-2V4h2Zm8 0h2v8h-2v2h-2v2h-2v2h-2v-2h2v-2h2v-2h2V4Z"/>
+                  </svg>
+                </div>
+                <h3 class="text-lg font-semibold text-white">Business Strategy</h3>
+                <p class="mt-2 text-sm leading-6 text-gray-300">
+                  Actionable plans for growth, positioning, and smarter decision-making.
+                </p>
+              </article>
+
+              <article class="rounded-2xl border border-white/15 bg-white/10 p-4 shadow-2xl shadow-[#6B1D2F]/5 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:bg-white/15">
+                <div class="mb-3 flex h-11 w-11 items-center justify-center rounded-xl border border-[#6B1D2F]/50 bg-[#6B1D2F]/30 text-white backdrop-blur-md">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 fill-current">
+                    <path d="M13.5 2.5c2.4 0 4.8 1 6.3 2.6l.7.8a5.6 5.6 0 0 1-7.9 7.9l-.7-.7a5.6 5.6 0 0 1 1.6-8.6Zm-1.3 5.5a3.7 3.7 0 0 0-3.2 3.2l-4.1 4.1c-.6.6-.6 1.5 0 2.1l.6.6c.6.6 1.5.6 2.1 0l4.1-4.1a3.7 3.7 0 0 0 3.2-3.2l3.3-3.3-3.1-3.1-3.9 3.9Zm.8 6.2a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm-8.7 6.7c.4-.4.4-1 .1-1.4l-1.1-1.1c-.4-.4-1-.4-1.4.1l-.8.8 2.7 2.7.8-.8Z"/>
+                  </svg>
+                </div>
+                <h3 class="text-lg font-semibold text-white">Brand Growth</h3>
+                <p class="mt-2 text-sm leading-6 text-gray-300">
+                  Brand identity support that helps you connect with your ideal audience.
+                </p>
+              </article>
+
+              <article class="rounded-2xl border border-white/15 bg-white/10 p-4 shadow-2xl shadow-[#6B1D2F]/5 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:bg-white/15">
+                <div class="mb-3 flex h-11 w-11 items-center justify-center rounded-xl border border-[#6B1D2F]/50 bg-[#6B1D2F]/30 text-white backdrop-blur-md">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 fill-current">
+                    <path d="M12 2a7 7 0 0 1 4.7 12c-.8.7-1.3 1.6-1.3 2.6v.4h-6.8v-.4c0-1-.5-1.9-1.3-2.6A7 7 0 0 1 12 2Zm-2.4 16h4.8v1.5a1.5 1.5 0 0 1-1.5 1.5h-1.8a1.5 1.5 0 0 1-1.5-1.5V18Zm3.9-11.5a1 1 0 0 0-1.8 0l-.5 1.2a1 1 0 0 1-.8.7L9.5 9.5a1 1 0 0 0-.3 1.9l1.2.5a1 1 0 0 1 .7.8l.2 1.3a1 1 0 0 0 1.9 0l.2-1.3a1 1 0 0 1 .7-.8l1.2-.5a1 1 0 0 0-.3-1.9l-1.2-.5a1 1 0 0 1-.8-.7L13.5 6.5Z"/>
+                  </svg>
+                </div>
+                <h3 class="text-lg font-semibold text-white">Consulting</h3>
+                <p class="mt-2 text-sm leading-6 text-gray-300">
+                  Practical consulting for businesses ready to scale with confidence.
+                </p>
+              </article>
+
+              <article class="rounded-2xl border border-white/15 bg-white/10 p-4 shadow-2xl shadow-[#6B1D2F]/5 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:bg-white/15">
+                <div class="mb-3 flex h-11 w-11 items-center justify-center rounded-xl border border-[#6B1D2F]/50 bg-[#6B1D2F]/30 text-white backdrop-blur-md">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" class="h-6 w-6 fill-current">
+                    <path d="M7.5 9A2.5 2.5 0 1 1 7.5 4a2.5 2.5 0 0 1 0 5Zm9 0A2.5 2.5 0 1 1 16.5 4a2.5 2.5 0 0 1 0 5Zm-9 2.5c-1.6 0-3 1-3.5 2.4L3.2 16a1.5 1.5 0 0 0 1.4 2h5.2a1.5 1.5 0 0 0 1.4-2l-.8-2.1A3.7 3.7 0 0 0 7.5 11.5Zm9 0c-1.6 0-3 1-3.5 2.4L15 16a1.5 1.5 0 0 1 1.4 2h5.2a1.5 1.5 0 0 1 1.4-2l-.8-2.1A3.7 3.7 0 0 0 16.5 11.5Zm-5.4 2.7c-1.7 0-3.1 1.3-3.1 2.9v.8h6.2v-.8c0-1.6-1.4-2.9-3.1-2.9Zm-3.1 4.3h6.2v1.1H8v-1.1Z"/>
+                  </svg>
+                </div>
+                <h3 class="text-lg font-semibold text-white">Partnership Support</h3>
+                <p class="mt-2 text-sm leading-6 text-gray-300">
+                  Guidance that helps build strong customer relationships and lasting value.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <aside class="rounded-3xl border border-white/15 bg-white/10 p-5 shadow-2xl shadow-[#6B1D2F]/10 backdrop-blur-xl">
+            <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#E2738A]">Business Hours</p>
+            <div class="mt-4 space-y-3">
+              <div class="flex items-center justify-between rounded-xl bg-white/5 px-3 py-2.5">
+                <span class="text-sm font-medium text-gray-300">Monday - Friday</span>
+                <span class="text-sm font-semibold text-white">9:00 AM - 6:00 PM</span>
+              </div>
+              <div class="flex items-center justify-between rounded-xl bg-white/5 px-3 py-2.5">
+                <span class="text-sm font-medium text-gray-300">Saturday</span>
+                <span class="text-sm font-semibold text-white">10:00 AM - 4:00 PM</span>
+              </div>
+              <div class="flex items-center justify-between rounded-xl bg-white/5 px-3 py-2.5">
+                <span class="text-sm font-medium text-gray-300">Sunday</span>
+                <span class="text-sm font-semibold text-white">By appointment</span>
+              </div>
+            </div>
+
+            <a
+              href="https://wa.me/94707803698?text=Hello%20Nadee,%20I%20need%20help%20with%20my%20business"
+              target="_blank"
+              rel="noreferrer"
+              class="mt-5 block rounded-2xl bg-gradient-to-r from-[#6B1D2F] via-[#7D2435] to-[#5D1827] p-4 text-white shadow-lg shadow-[#6B1D2F]/20 transition hover:brightness-110"
+              aria-label="Chat on WhatsApp"
+            >
+              <div class="flex items-center justify-between gap-4">
+                <div>
+                  <p class="text-xs font-semibold uppercase tracking-[0.2em] text-white/80">Quick Contact</p>
+                  <p class="mt-2 text-xl font-bold">Let’s talk</p>
+                  <p class="text-sm text-white/80">Available for new projects</p>
+                </div>
+                <div class="flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-sm">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" class="h-5 w-5 fill-[#25D366]">
+                    <path d="M19.05 4.95A9.85 9.85 0 0 0 12.02 2a9.9 9.9 0 0 0-8.47 15.03L2 22l5.09-1.35A9.9 9.9 0 0 0 12.02 22a9.88 9.88 0 0 0 7.03-3.05 9.86 9.86 0 0 0 0-14.0ZM12.02 19.8c-1.47 0-2.9-.4-4.16-1.16l-.3-.18-3.02.8.8-2.95-.2-.3A7.94 7.94 0 0 1 4.1 12a8.05 8.05 0 1 1 14.03 5.7 7.9 7.9 0 0 1-6.11 2.1Zm4.35-5.96c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.43-1.34-1.67-.14-.24-.02-.37.1-.49.1-.1.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.4h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.68 2.56 4.08 3.58.57.25 1.02.4 1.37.51.57.18 1.09.15 1.5.09.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28Z"/>
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </aside>
+        </section>
+
+        <section class="border-t border-white/10 bg-white/5 px-5 py-6 backdrop-blur-md sm:px-8 lg:px-10">
+          <div class="mb-5">
+            <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#E2738A]">Contact</p>
+            <h2 class="mt-2 text-2xl font-bold text-white">Send a message</h2>
+          </div>
+
+          <div class="grid gap-6 lg:grid-cols-[1fr_0.95fr]">
+            <form class="space-y-4" action="https://wa.me/94707803698?text=Hello%20Nadee,%20I%20need%20help%20with%20my%20business" method="get" target="_blank" rel="noreferrer">
+              <div>
+                <label for="name" class="mb-2 block text-sm font-medium text-gray-300">Name</label>
+                <input
+                  id="name"
+                  name="text"
+                  type="text"
+                  placeholder="Your full name"
+                  class="w-full rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white outline-none transition focus:border-[#E2738A] focus:bg-white/10 focus:ring-4 focus:ring-[#E2738A]/20"
+                />
+              </div>
+
+              <div>
+                <label for="email" class="mb-2 block text-sm font-medium text-gray-300">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="you@example.com"
+                  class="w-full rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white outline-none transition focus:border-[#E2738A] focus:bg-white/10 focus:ring-4 focus:ring-[#E2738A]/20"
+                />
+              </div>
+
+              <div>
+                <label for="message" class="mb-2 block text-sm font-medium text-gray-300">Message</label>
+                <textarea
+                  id="message"
+                  name="text"
+                  rows="4"
+                  placeholder="Tell me about your project or inquiry..."
+                  class="w-full rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white outline-none transition focus:border-[#E2738A] focus:bg-white/10 focus:ring-4 focus:ring-[#E2738A]/20"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-[#6B1D2F] px-5 py-3.5 text-sm font-semibold text-white transition hover:bg-[#5a1826]"
+              >
+                <i class="fa-brands fa-whatsapp text-base"></i>
+                Chat on WhatsApp
+              </button>
+            </form>
+
+            <div class="rounded-3xl border border-white/10 bg-[#1E2328] p-5 text-white shadow-2xl shadow-black/20">
+              <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#E2738A]">Why work with me</p>
+              <h3 class="mt-3 text-2xl font-bold">Clear strategy. Stronger brand. Better growth.</h3>
+              <ul class="mt-5 space-y-4 text-sm text-gray-300">
+                <li class="flex items-start gap-3">
+                  <span class="mt-0.5 inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#6B1D2F]/30 text-white">
+                    <i class="fa-solid fa-check text-xs"></i>
+                  </span>
+                  Personalized guidance tailored to your business stage.
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="mt-0.5 inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#6B1D2F]/30 text-white">
+                    <i class="fa-solid fa-check text-xs"></i>
+                  </span>
+                  Real-world strategies designed for practical execution.
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="mt-0.5 inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#6B1D2F]/30 text-white">
+                    <i class="fa-solid fa-check text-xs"></i>
+                  </span>
+                  Friendly support to help you move forward with clarity.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      const form = document.querySelector('form');
+      const nameInput = document.getElementById('name');
+      const messageInput = document.getElementById('message');
+
+      form.addEventListener('submit', function (event) {
+        const name = nameInput.value.trim();
+        const message = messageInput.value.trim();
+        const text = encodeURIComponent(
+          `Hello Nadee, my name is ${name || 'Customer'} and I would like to discuss: ${message || 'a business inquiry'}.`
+        );
+        form.action = `https://wa.me/94707803698?text=${text}`;
+      });
+    </script>
+  </body>
+</html>
