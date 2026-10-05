@@ -3,7 +3,6 @@
     "rewrite": "/index.html",
     "exclude": [
       "/assets/*",
-      "/favicon.ico",
       "/robots.txt",
       "/manifest.json",
       "/images/*",

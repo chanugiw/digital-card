@@ -164,14 +164,20 @@ const Home = () => {
               <p className="mt-2 max-w-[360px] text-[0.95rem] leading-relaxed text-white/75">
                 Let’s discuss your goals and explore how I can support your next stage of growth.
               </p>
-              <Link
-                to="/contact"
+              <a
+                href="https://www.nadeesenanayake.com/contact"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.open('https://www.nadeesenanayake.com/contact', '_blank', 'noopener,noreferrer');
+                }}
                 className="mt-6 inline-flex items-center gap-3 rounded-xl bg-white px-5 py-3 text-[0.95rem] font-semibold text-[#8f1737] shadow-lg transition-colors hover:bg-[#fbe9ee] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
                 <CalendarDays size={20} aria-hidden="true" />
                 Book a Consultation
                 <ArrowRight size={18} aria-hidden="true" />
-              </Link>
+              </a>
             </div>
           </div>
         </section>

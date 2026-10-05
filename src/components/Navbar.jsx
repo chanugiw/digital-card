@@ -2,6 +2,43 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
+const BrandMark = () => {
+  const rings = [
+    { cx: 60, cy: 72, r: 58, color: '#b38ad9', rotate: -12, dash: '240 420' },
+    { cx: 126, cy: 42, r: 58, color: '#ef4f5f', rotate: 14, dash: '255 420' },
+    { cx: 178, cy: 84, r: 58, color: '#f3b100', rotate: 24, dash: '266 420' },
+    { cx: 130, cy: 120, r: 58, color: '#1fcb7a', rotate: -8, dash: '260 420' },
+    { cx: 74, cy: 126, r: 58, color: '#1db0d9', rotate: -30, dash: '250 420' },
+    { cx: 42, cy: 88, r: 52, color: '#4d6df8', rotate: -12, dash: '235 420' },
+  ];
+
+  return (
+    <svg
+      viewBox="0 0 260 170"
+      className="h-10 w-auto md:h-14"
+      aria-label="Nadee Senanayake logo"
+      role="img"
+    >
+      <g transform="translate(0 10)">
+        {rings.map((ring, index) => (
+          <circle
+            key={index}
+            cx={ring.cx}
+            cy={ring.cy}
+            r={ring.r}
+            fill="none"
+            stroke={ring.color}
+            strokeWidth="26"
+            strokeLinecap="round"
+            strokeDasharray={ring.dash}
+            transform={`rotate(${ring.rotate} ${ring.cx} ${ring.cy})`}
+          />
+        ))}
+      </g>
+    </svg>
+  );
+};
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
@@ -42,8 +79,8 @@ const Navbar = () => {
   return (
     <div className="sticky top-4 left-0 right-0 z-50 w-full px-4 md:px-8 lg:px-16">
       <nav className="bg-[#0d0d0d] rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.35)] px-5 md:px-6 py-3.5 flex items-center justify-between border border-[#1f1f1f]">
-        <button onClick={goHome} className="flex items-center gap-2 text-white text-left">
-          <span className="text-[1.1rem] md:text-[1.35rem] font-black tracking-[0.12em] uppercase">Nadee</span>
+        <button onClick={goHome} className="flex items-center gap-2 text-white text-left" aria-label="Go to home">
+          <BrandMark />
         </button>
 
         <div className="hidden lg:flex items-center justify-center flex-1 gap-8">
