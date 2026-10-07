@@ -91,6 +91,9 @@ const Home = () => {
           <p className="mt-1 text-base font-medium text-[#e5566f] sm:text-[1.05rem]">
             Digital Business Consultant
           </p>
+          <span className="mt-2 inline-flex w-fit items-center rounded-full border border-[#e9c7d2] bg-[#F3E8EC] px-[12px] py-[3px] text-[12px] font-semibold text-[#7A1C3E] shadow-sm">
+            (Non Educational Clients Only)
+          </span>
           <p className="mt-3 max-w-[560px] text-[0.95rem] leading-relaxed text-[#b4bec6]">
             With{' '}
             <a
